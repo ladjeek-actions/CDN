@@ -1,6 +1,7 @@
 /* Author Hajeekn */
 /* 本主题使用了最新的hover技术,IE浏览器无法使用 */
 /* Name:Pofato */
+/* 本主题兼容了 Butterfly 的暗色模式 */
 .hppt_avatar,
 .hppt_comment-body a,
 .hppt_pos-rlt,
@@ -234,7 +235,7 @@ h4 {
 }
 
 .hppt_text-muted {
-    color: #1f96e6 !important;
+    color: var(--text-color) !important;
 }
 
 .hppt_comment-content-true {
@@ -243,11 +244,11 @@ h4 {
 
 .hppt_panel-body {
     padding: 15px;
-    color: #ffffffc9;
+    color: var(--font-color);
 }
 .hppt_panel-body:hover {
     padding: 20px;
-    color: #fff;
+    color: var(--font-color);
     transition: all 3.5s;
 }
 .hppt_panel-body {
@@ -297,19 +298,22 @@ h4 {
     display: block;
     text-align: center;
     line-height: 40px;
-    color: #fff;
+    color: var(--font-color);
     text-decoration: none;
-    background: #49b1f5;
+    background: var(--btn-bg);
+    font-weight: bold;
 }
 .hppt_button_nextpage:hover {
     transition: all 3.5s linear;
     transition: border-radius 3.5s linear;
-    border-color: #4cc9f0;
-    background-color: #4cc9f0;
+    border-color: var(--border-color);
+    background-color: var(--btn-bg);
+    color: var(--text-color);
     -webkit-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
     -moz-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
     box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);  
     border-radius: 50px 10px 50px 10px;
+    font-weight: bold;
 }
 .hppt_button_nextpage {
     transition: all 3.5s;
@@ -400,3 +404,15 @@ h4 {
     100% {
         transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg)
     }
+[data-theme=dark] {
+    --text-color: #fff;
+    --btn-bg: #49b1f5;
+    --border-color: #797f85;
+    --box-shadow: #797f85;
+}
+[data-theme=light] {
+    --btn-bg: #4cc9f0;
+    --text-color: #212121;
+    --border-color: #4cc9f0;
+    --box-shadow: rgba(76,201,240,1);
+}
