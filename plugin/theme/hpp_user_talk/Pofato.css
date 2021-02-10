@@ -244,11 +244,11 @@ h4 {
 
 .hppt_panel-body {
     padding: 15px;
-    color: var(--font-color);
+    color: var(--font-color) !important;
 }
 .hppt_panel-body:hover {
     padding: 20px;
-    color: var(--font-color);
+    color: var(--font-color) !important;
     transition: all 3.5s;
 }
 .hppt_panel-body {
@@ -298,17 +298,17 @@ h4 {
     display: block;
     text-align: center;
     line-height: 40px;
-    color: var(--font-color);
+    color: var(--font-color) !important;
     text-decoration: none;
-    background: var(--btn-bg);
+    background: var(--btn-bg) !important;
     font-weight: bold;
 }
 .hppt_button_nextpage:hover {
     transition: all 3.5s linear;
     transition: border-radius 3.5s linear;
-    border-color: var(--border-color);
-    background-color: var(--btn-bg);
-    color: var(--text-color);
+    border-color: var(--border-color) !important;
+    background-color: var(--btn-bg) !important;
+    color: var(--text-color) !important;
     -webkit-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
     -moz-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
     box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);  
