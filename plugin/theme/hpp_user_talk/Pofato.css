@@ -6,7 +6,7 @@
 .hppt_comment-body a,
 .hppt_pos-rlt,
 .hppt_streamline {
-    position: relative
+    position: relative !important
 }
 
 @-webkit-keyframes AnimationName {
@@ -46,29 +46,29 @@
 }
 
 .hppt_padder-v {
-    padding-top: 15px;
-    padding-bottom: 15px
+    padding-top: 15px !important;
+    padding-bottom: 15px !important
 }
 
 .hppt_m-l-lg {
-    border: none
+    border: none !important
 }
 
 .hppt_b-l {
-    border-left: 1px solid #dee5e7
+    border-left: 1px solid #dee5e7 !important
 }
 
 .hppt_m-b {
-    margin-bottom: 15px
+    margin-bottom: 15px !important
 }
 
 .hppt_m-t-lg {
-    margin-top: 30px
+    margin-top: 30px !important
 }
 
 .h4,
 h4 {
-    font-size: 18px
+    font-size: 18px !important
 }
 
 .h4,
@@ -77,8 +77,8 @@ h4 {
 h4,
 h5,
 h6 {
-    margin-top: 10px;
-    margin-bottom: 10px
+    margin-top: 10px !important;
+    margin-bottom: 10px !important
 }
 
 .h1,
@@ -93,53 +93,53 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: inherit;
-    font-weight: 500;
-    line-height: 1.1;
-    color: inherit
+    font-family: inherit !important;
+    font-weight: 500 !important;
+    line-height: 1.1 !important;
+    color: inherit !important
 }
 
 h4 {
-    display: block;
-    margin-block-start: 1.33em;
-    margin-block-end: 1.33em;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-    font-weight: 700
+    display: block !important;
+    margin-block-start: 1.33em !important;
+    margin-block-end: 1.33em !important;
+    margin-inline-start: 0 !important;
+    margin-inline-end: 0 !important;
+    font-weight: 700 !important
 }
 
 .hppt_comment-list {
     margin-bottom: 0 !important;
-    padding-left: 0;
-    list-style: none
+    padding-left: 0 !important;
+    list-style: none !important
 }
 
 .hppt_hbox {
-    display: table;
-    width: 100%;
-    height: 100%;
-    border-spacing: 0;
-    table-layout: fixed
+    display: table !important;
+    width: 100% !important;
+    height: 100% !important;
+    border-spacing: 0 !important;
+    table-layout: fixed !important
 }
 
 .hppt_thumb-sm {
-    display: inline-block;
-    width: 40px;
-    height: auto
+    display: inline-block !important;
+    width: 40px !important;
+    height: auto !important
 }
 
 .hppt_m-l-n-md {
-    margin-left: -20px
+    margin-left: -20px !important
 }
 
 .hppt_avatar {
-    display: block;
-    white-space: nowrap;
-    border-radius: 500px;
-    -webkit-transition: .4s;
-    -webkit-transition: -webkit-transform .4s ease-out;
-    transition: transform .4s ease-out;
-    -moz-transition: -moz-transform .4s ease-out
+    display: block !important;
+    white-space: nowrap !important;
+    border-radius: 500px !important;
+    -webkit-transition: .4s !important;
+    -webkit-transition: -webkit-transform .4s ease-out !important;
+    transition: transform .4s ease-out !important;
+    -moz-transition: -moz-transform .4s ease-out !important
 }
 
 .hppt_pull-left {
@@ -152,9 +152,9 @@ h4 {
 .hppt_thumb-md img,
 .hppt_thumb-sm img,
 .hppt_thumb-xs img {
-    height: auto;
-    max-width: 100%;
-    vertical-align: middle
+    height: auto !important;
+    max-width: 100% !important;
+    vertical-align: middle !important
 }
 
 .hppt_avatar img {
@@ -167,31 +167,31 @@ h4 {
 
 .hppt_img-40px {
     width: 40px !important;
-    height: 40px
+    height: 40px !important
 }
 
 .hppt_img-square {
-    border-radius: 100%!important;
+    border-radius: 100% !important;
 }
 
 .hppt_box-shadow-wrap-normal {
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .05);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .05)
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .05) !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .05) !important
 }
 
 .hppt_panel {
-    margin-bottom: 20px;
-    background-color: #fff;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
-    -moz-box-shadow: 0 8px 10px rgba(255, 112, 173, .35);
-    transition: all .6s
+    margin-bottom: 20px !important;
+    background-color: #fff !important;
+    border: 1px solid transparent !important;
+    border-radius: 4px !important;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05) !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05) !important;
+    -moz-box-shadow: 0 8px 10px rgba(255, 112, 173, .35) !important;
+    transition: all .6s !important
 }
 
 .hppt_b-b {
-    border-bottom: 1px solid rgba(222, 229, 231, .45)
+    border-bottom: 1px solid rgba(222, 229, 231, .45) !important
 }
 
 .hppt_b-light {
@@ -199,35 +199,35 @@ h4 {
 }
 
 .hppt_panel-heading {
-    border-radius: 0 0 3px 3px!important;
-    padding: 1px 15px!important;
+    border-radius: 0 0 3px 3px !important;
+    padding: 1px 15px !important;
 }
 
 .hppt_arrow.hppt_left {
-    top: 50%;
-    left: -9px;
-    margin-top: -9px;
-    border-right-color: rgba(255, 255, 255, .1);
-    border-left-width: 0
+    top: 50% !important;
+    left: -9px !important;
+    margin-top: -9px !important;
+    border-right-color: rgba(255, 255, 255, .1) !important;
+    border-left-width: 0 !important
 }
 
 .hppt_arrow,
 .hppt_arrow:after {
-    position: absolute;
-    display: block;
-    width: 0;
-    height: 0;
-    border-color: transparent;
-    border-style: solid
+    position: absolute !important;
+    display: block !important;
+    width: 0 !important;
+    height: 0 !important;
+    border-color: transparent !important;
+    border-style: solid !important
 }
 
 .hppt_arrow {
-    z-index: 10;
-    border-width: 9px
+    z-index: 10 !important;
+    border-width: 9px !important
 }
 
 .hppt_m-l-sm {
-    margin-left: 10px
+    margin-left: 10px !important
 }
 
 .hppt_pull-right {
@@ -239,20 +239,20 @@ h4 {
 }
 
 .hppt_comment-content-true {
-    display: block
+    display: block !important
 }
 
 .hppt_panel-body {
-    padding: 15px;
-    color: var(--font-color);
+    padding: 15px !important;
+    color: var(--font-color) !important;
 }
 .hppt_panel-body:hover {
-    padding: 20px;
-    color: var(--font-color);
-    transition: all 3.5s;
+    padding: 20px !important;
+    color: var(--font-color) !important;
+    transition: all 3.5s !important;
 }
 .hppt_panel-body {
-    transition: all 3.5s;
+    transition: all 3.5s !important;
 }
 
 .hppt_panel-footer {
@@ -265,11 +265,11 @@ h4 {
 
     .hppt_arrow.hppt_left,
     .md-editor.md-fullscreen-mode .md-header {
-        display: none
+        display: none !important
     }
 
     .hpp_talk_img {
-        width: auto
+        width: auto !important
     }
 }
 
@@ -278,101 +278,101 @@ h4 {
 }
 
 .hppt_panel {
-    background-color: #90939920
+    background-color: #90939920 !important
 }
 
 .hppt_streamline {
-    border: 0
+    border: 0 !important
 }
 
 .hppt_button_nextpage {
-    width: 270px;
-    height: 40px;
-    border-width: 0;
-    border-radius: 100rem;
-    cursor: pointer;
-    outline: 0;
-    font-family: Microsoft YaHei;
-    font-size: 17px;
-    margin: .2rem auto 0;
-    display: block;
-    text-align: center;
-    line-height: 40px;
-    color: var(--font-color);
-    text-decoration: none;
-    background: var(--btn-bg);
-    font-weight: bold;
+    width: 270px !important;
+    height: 40px !important;
+    border-width: 0 !important;
+    border-radius: 100rem !important;
+    cursor: pointer !important;
+    outline: 0 !important;
+    font-family: Microsoft YaHei !important;
+    font-size: 17px !important;
+    margin: .2rem auto 0 !important;
+    display: block !important;
+    text-align: center !important;
+    line-height: 40px !important;
+    color: var(--font-color) !important;
+    text-decoration: none !important;
+    background: var(--btn-bg) !important;
+    font-weight: bold !important;
 }
 .hppt_button_nextpage:hover {
-    transition: all 3.5s linear;
-    transition: border-radius 3.5s linear;
-    border-color: var(--border-color);
-    background-color: var(--btn-bg);
-    color: var(--text-color);
-    -webkit-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
-    -moz-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
-    box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);  
-    border-radius: 50px 10px 50px 10px;
-    font-weight: bold;
+    transition: all 3.5s linear !important;
+    transition: border-radius 3.5s linear !important;
+    border-color: var(--border-color) !important;
+    background-color: var(--btn-bg) !important;
+    color: var(--text-color) !important;
+    -webkit-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1) !important;
+    -moz-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1) !important;
+    box-shadow: 10px 10px 99px 6px rgba(76,201,240,1) !important;  
+    border-radius: 50px 10px 50px 10px !important;
+    font-weight: bold !important;
 }
 .hppt_button_nextpage {
-    transition: all 3.5s;
+    transition: all 3.5s !important;
 }
 
 .hppt_inner,
 .hppt_loader {
-    border-radius: 50%;
-    position: absolute
+    border-radius: 50% !important;
+    position: absolute !important
 }
 
 .hpp_talk_loading {
-    min-height: 200px
+    min-height: 200px !important
 }
 
 .hpp_talk_part {
-    min-height: 100px
+    min-height: 100px !important
 }
 
 .hppt_loader {
-    background-color: #90939920;
-    width: 64px;
-    height: 64px;
-    perspective: 800px
+    background-color: #90939920 !important;
+    width: 64px !important;
+    height: 64px !important;
+    perspective: 800px !important
 }
 
 .hppt_inner {
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%
+    box-sizing: border-box !important;
+    width: 100% !important;
+    height: 100% !important
 }
 
 .hppt_inner.one {
-    left: 0;
-    top: 0;
-    animation: rotate-one 1s linear infinite;
-    border-bottom: 3px solid #888;
-    position: absolute
+    left: 0 !important;
+    top: 0 !important;
+    animation: rotate-one 1s linear infinite !important;
+    border-bottom: 3px solid #888 !important;
+    position: absolute !important
 }
 
 .hppt_inner.two {
-    right: 0;
-    top: 0;
-    animation: rotate-two 1s linear infinite;
-    border-right: 3px solid #888;
-    position: absolute
+    right: 0 !important;
+    top: 0 !important;
+    animation: rotate-two 1s linear infinite !important;
+    border-right: 3px solid #888 !important;
+    position: absolute !important
 }
 
 .hppt_inner.three {
-    right: 0;
-    bottom: 0;
-    animation: rotate-three 1s linear infinite;
-    border-top: 3px solid #888;
-    position: absolute
+    right: 0 !important;
+    bottom: 0 !important;
+    animation: rotate-three 1s linear infinite !important;
+    border-top: 3px solid #888 !important;
+    position: absolute !important
 }
 
 @keyframes hovver {
-    from {background:#ff5722;}
-    to {background:#ff5722;}
+    from {background:#ff5722; !important}
+    to {background:#ff5722; !important}
 }
 
 
