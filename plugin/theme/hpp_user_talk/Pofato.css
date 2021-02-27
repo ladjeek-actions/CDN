@@ -141,7 +141,11 @@ h4 {
     transition: transform .4s ease-out !important;
     -moz-transition: -moz-transform .4s ease-out !important
 }
-
+.hppt_avatar:hover {
+    transition: width 2s ,height 2s, transform 2s;
+    transition-timing-function: ease;
+    transform: rotate(360deg);
+}
 .hppt_pull-left {
     float: left !important
 }
@@ -154,11 +158,17 @@ h4 {
 .hppt_thumb-xs img {
     height: auto !important;
     max-width: 100% !important;
-    vertical-align: middle !important
+    vertical-align: middle !important;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
 }
 
 .hppt_avatar img {
-    width: 100%
+    width: 100%;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
 }
 
 .hppt_normal-shadow {
@@ -171,6 +181,9 @@ h4 {
 }
 
 .hppt_img-square {
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
     border-radius: 100% !important;
 }
 
@@ -249,12 +262,18 @@ h4 {
 .hppt_panel-body:hover {
     padding: 20px !important;
     color: var(--font-color) !important;
-    transition: all 3.5s !important;
+    transition: all 0.5s !important;
 }
 .hppt_panel-body {
-    transition: all 3.5s !important;
+    transition: all 0.5s !important;
 }
-
+.hppt_panel-body p:hover{
+   color: #a2a19abf;
+   transition: all 0.5s;
+}
+.hppt_panel-body p{
+    transition: all 0.5s;
+}
 .hppt_panel-footer {
     border-radius: 0 0 3px 3px!important;
     padding: 1px 15px!important;
@@ -302,6 +321,7 @@ h4 {
     text-decoration: none !important;
     background: var(--btn-bg) !important;
     font-weight: bold !important;
+    transition: all 1.5s;
 }
 .hppt_button_nextpage:hover {
     transition: all 3.5s linear !important;
@@ -316,7 +336,7 @@ h4 {
     font-weight: bold !important;
 }
 .hppt_button_nextpage {
-    transition: all 3.5s !important;
+    transition: all 1.5s !important;
 }
 
 .hppt_inner,
